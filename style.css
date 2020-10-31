@@ -1,0 +1,21 @@
+/*****Drag-And-Drop*****/
+body {
+  background: darkseagreen;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6 {
+  float: left;
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  padding: 10px;
+  background: #ffffff;
+  border: solid 3px green;
+  border-style: dashed;
+  margin-top: 230px;
+  cursor: pointer;
+}
